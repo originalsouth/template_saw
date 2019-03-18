@@ -1,0 +1,373 @@
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int, int, int}; X = unsigned int; Y = int; Y x = 7; Y y = 4; Y n = 3; Y N = 3]’:
+ts.cc:65:75:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 6; Y y = 4; Y n = 2; Y N = 3]’
+ts.cc:91:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 5; Y y = 4; Y n = 1; Y N = 3]’
+ts.cc:111:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 3]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int, int, int}; X = unsigned int; Y = int; Y x = 5; Y y = 4; Y n = 3; Y N = 3]’:
+ts.cc:66:75:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 6; Y y = 4; Y n = 2; Y N = 3]’
+ts.cc:91:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 5; Y y = 4; Y n = 1; Y N = 3]’
+ts.cc:111:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 3]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int, int, int}; X = unsigned int; Y = int; Y x = 6; Y y = 5; Y n = 3; Y N = 3]’:
+ts.cc:67:75:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 6; Y y = 4; Y n = 2; Y N = 3]’
+ts.cc:91:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 5; Y y = 4; Y n = 1; Y N = 3]’
+ts.cc:111:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 3]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int, int, int}; X = unsigned int; Y = int; Y x = 6; Y y = 3; Y n = 3; Y N = 3]’:
+ts.cc:68:75:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 6; Y y = 4; Y n = 2; Y N = 3]’
+ts.cc:91:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 5; Y y = 4; Y n = 1; Y N = 3]’
+ts.cc:111:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 3]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int, int, int}; X = unsigned int; Y = int; Y x = 3; Y y = 4; Y n = 3; Y N = 3]’:
+ts.cc:66:75:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 2; Y N = 3]’
+ts.cc:92:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 5; Y y = 4; Y n = 1; Y N = 3]’
+ts.cc:111:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 3]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int, int, int}; X = unsigned int; Y = int; Y x = 4; Y y = 5; Y n = 3; Y N = 3]’:
+ts.cc:67:75:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 2; Y N = 3]’
+ts.cc:92:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 5; Y y = 4; Y n = 1; Y N = 3]’
+ts.cc:111:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 3]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int, int, int}; X = unsigned int; Y = int; Y x = 4; Y y = 3; Y n = 3; Y N = 3]’:
+ts.cc:68:75:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 2; Y N = 3]’
+ts.cc:92:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 5; Y y = 4; Y n = 1; Y N = 3]’
+ts.cc:111:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 3]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int, int, int}; X = unsigned int; Y = int; Y x = 5; Y y = 6; Y n = 3; Y N = 3]’:
+ts.cc:67:75:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 5; Y y = 5; Y n = 2; Y N = 3]’
+ts.cc:93:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 5; Y y = 4; Y n = 1; Y N = 3]’
+ts.cc:111:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 3]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int, int, int}; X = unsigned int; Y = int; Y x = 5; Y y = 2; Y n = 3; Y N = 3]’:
+ts.cc:68:75:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 5; Y y = 3; Y n = 2; Y N = 3]’
+ts.cc:94:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 5; Y y = 4; Y n = 1; Y N = 3]’
+ts.cc:111:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 3]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int, int, int}; X = unsigned int; Y = int; Y x = 1; Y y = 4; Y n = 3; Y N = 3]’:
+ts.cc:66:75:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 2; Y y = 4; Y n = 2; Y N = 3]’
+ts.cc:92:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 3; Y y = 4; Y n = 1; Y N = 3]’
+ts.cc:112:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 3]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int, int, int}; X = unsigned int; Y = int; Y x = 2; Y y = 5; Y n = 3; Y N = 3]’:
+ts.cc:67:75:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 2; Y y = 4; Y n = 2; Y N = 3]’
+ts.cc:92:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 3; Y y = 4; Y n = 1; Y N = 3]’
+ts.cc:112:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 3]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int, int, int}; X = unsigned int; Y = int; Y x = 2; Y y = 3; Y n = 3; Y N = 3]’:
+ts.cc:68:75:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 2; Y y = 4; Y n = 2; Y N = 3]’
+ts.cc:92:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 3; Y y = 4; Y n = 1; Y N = 3]’
+ts.cc:112:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 3]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int, int, int}; X = unsigned int; Y = int; Y x = 3; Y y = 6; Y n = 3; Y N = 3]’:
+ts.cc:67:75:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 3; Y y = 5; Y n = 2; Y N = 3]’
+ts.cc:93:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 3; Y y = 4; Y n = 1; Y N = 3]’
+ts.cc:112:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 3]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int, int, int}; X = unsigned int; Y = int; Y x = 3; Y y = 2; Y n = 3; Y N = 3]’:
+ts.cc:68:75:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 3; Y y = 3; Y n = 2; Y N = 3]’
+ts.cc:94:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 3; Y y = 4; Y n = 1; Y N = 3]’
+ts.cc:112:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 3]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int, int, int}; X = unsigned int; Y = int; Y x = 4; Y y = 7; Y n = 3; Y N = 3]’:
+ts.cc:67:75:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 4; Y y = 6; Y n = 2; Y N = 3]’
+ts.cc:93:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 4; Y y = 5; Y n = 1; Y N = 3]’
+ts.cc:113:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 3]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int, int, int}; X = unsigned int; Y = int; Y x = 4; Y y = 1; Y n = 3; Y N = 3]’:
+ts.cc:68:75:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 4; Y y = 2; Y n = 2; Y N = 3]’
+ts.cc:94:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 4; Y y = 3; Y n = 1; Y N = 3]’
+ts.cc:114:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 3]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 6; Y y = 4; Y n = 2; Y N = 2]’:
+ts.cc:91:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 5; Y y = 4; Y n = 1; Y N = 2]’
+ts.cc:111:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 2]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:130:57:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 2; Y N = 2]’:
+ts.cc:92:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 5; Y y = 4; Y n = 1; Y N = 2]’
+ts.cc:111:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 2]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:130:57:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 5; Y y = 5; Y n = 2; Y N = 2]’:
+ts.cc:93:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 5; Y y = 4; Y n = 1; Y N = 2]’
+ts.cc:111:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 2]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:130:57:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 5; Y y = 3; Y n = 2; Y N = 2]’:
+ts.cc:94:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 5; Y y = 4; Y n = 1; Y N = 2]’
+ts.cc:111:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 2]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:130:57:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 2; Y y = 4; Y n = 2; Y N = 2]’:
+ts.cc:92:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 3; Y y = 4; Y n = 1; Y N = 2]’
+ts.cc:112:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 2]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:130:57:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 3; Y y = 5; Y n = 2; Y N = 2]’:
+ts.cc:93:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 3; Y y = 4; Y n = 1; Y N = 2]’
+ts.cc:112:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 2]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:130:57:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 3; Y y = 3; Y n = 2; Y N = 2]’:
+ts.cc:94:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 3; Y y = 4; Y n = 1; Y N = 2]’
+ts.cc:112:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 2]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:130:57:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 4; Y y = 6; Y n = 2; Y N = 2]’:
+ts.cc:93:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 4; Y y = 5; Y n = 1; Y N = 2]’
+ts.cc:113:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 2]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:130:57:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y, const Nodes ...) [with Nodes = {int, int}; X = unsigned int; Y = int; Y x = 4; Y y = 2; Y n = 2; Y N = 2]’:
+ts.cc:94:66:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 4; Y y = 3; Y n = 1; Y N = 2]’
+ts.cc:114:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 2]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:131:30:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:130:57:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                         ~~~~~~~~^
+ts.cc:54:75: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     template<class...Nodes> static constexpr X move(X z,const Y u,const Y v,const Nodes...nodes)
+                                                                   ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 5; Y y = 4; Y n = 1; Y N = 1]’:
+ts.cc:111:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 1]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 1]’
+ts.cc:130:57:   recursively required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:130:57:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:80:41: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     static constexpr X move(X z,const Y u,const Y v)
+                                 ~~~~~~~~^
+ts.cc:80:51: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     static constexpr X move(X z,const Y u,const Y v)
+                                           ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 3; Y y = 4; Y n = 1; Y N = 1]’:
+ts.cc:112:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 1]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 1]’
+ts.cc:130:57:   recursively required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:130:57:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:80:41: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     static constexpr X move(X z,const Y u,const Y v)
+                                 ~~~~~~~~^
+ts.cc:80:51: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     static constexpr X move(X z,const Y u,const Y v)
+                                           ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 4; Y y = 5; Y n = 1; Y N = 1]’:
+ts.cc:113:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 1]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 1]’
+ts.cc:130:57:   recursively required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:130:57:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:80:41: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     static constexpr X move(X z,const Y u,const Y v)
+                                 ~~~~~~~~^
+ts.cc:80:51: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     static constexpr X move(X z,const Y u,const Y v)
+                                           ~~~~~~~~^
+ts.cc: In instantiation of ‘static constexpr X walker<X, Y, x, y, n, N>::move(X, Y, Y) [with X = unsigned int; Y = int; Y x = 4; Y y = 3; Y n = 1; Y N = 1]’:
+ts.cc:114:35:   required from ‘static constexpr X walker<X, Y, x, y, n, N>::move(X) [with X = unsigned int; Y = int; Y x = 4; Y y = 4; Y n = 0; Y N = 1]’
+ts.cc:123:70:   required from ‘constexpr saw<X, Y, N>::saw() [with X = unsigned int; Y = int; Y N = 1]’
+ts.cc:130:57:   recursively required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 2]’
+ts.cc:130:57:   required from ‘saws<X, Y, N>::saws() [with X = unsigned int; Y = int; Y N = 3]’
+ts.cc:139:36:   required from here
+ts.cc:80:41: warning: parameter ‘u’ set but not used [-Wunused-but-set-parameter]
+     static constexpr X move(X z,const Y u,const Y v)
+                                 ~~~~~~~~^
+ts.cc:80:51: warning: parameter ‘v’ set but not used [-Wunused-but-set-parameter]
+     static constexpr X move(X z,const Y u,const Y v)
+                                           ~~~~~~~~^

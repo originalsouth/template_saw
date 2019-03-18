@@ -24,11 +24,17 @@ def plotter(ax,data,label,color,alpha,column,mask=False):
         ax.scatter(length[neomask],col_data[neomask],marker='x',color=color,alpha=alpha,zorder=1)
 
 def runner(data,column):
+    inset=plt.axes(label=column).inset_axes([0.3,0.25,0.05,0.7])
+    unit=''
+    if column=='compile_time':
+        unit='(s)'
+    elif column=='memory_use':
+        unit='(kb)'
+    plt.title('length vs. {}{}'.format(column,unit))
     tvars=['int8_t','uint8_t','int16_t','uint16_t','int32_t','uint32_t','int64_t','uint64_t']
     cvars=['int32_t','uint32_t','float','int64_t','uint64_t','double','long double']
     alpha=0.0
     dalpha=1.0/(len(tvars)*len(cvars)+1)
-    inset=plt.axes().inset_axes([0.3,0.25,0.05,0.7])
     for tvar in tvars:
         for cvar in cvars:
             tvar_filter=data['tvar'].str.match(tvar)
@@ -56,6 +62,7 @@ def runner(data,column):
         plt.ylim((0.1,None))
     plt.legend(loc='best',prop={'size':1.5})
     plt.tight_layout()
+    plt.savefig('ts_'+column+'.png')
     plt.savefig('ts_'+column+'.pdf')
 
 data=pd.read_csv('ts_compile.ls',quotechar='"',delimiter=';',names=['compiler','N','tvar','cvar','compile_time','memory_use','exit_status'])
