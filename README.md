@@ -122,7 +122,7 @@ ts.cc:54:65: warning: parameter ‘u’ set but not used [-Wunused-but-set-param
 Basically the walker walked as follows `(4,4) -> (4,5) -> (4,6) -> (4,7)` where it terminated as the max length was set by `N=3`.
 I should probably write a script that extracts all the walkers from here but that is a task for another day :)
 
-###Conclusion
+### Conclusion
 To conclude the lessons we learned today can be neatly summarized:
 * For `gcc 8.2.1` vs. `clang version 7.0.1` gcc compiles this heavily recursive algorithm much quicker if it compiles at all
 * The memory used by `gcc 8.2.1` becomes huge for `__N_MAX__>11` (too large to handle for my rusty poor laptop).
